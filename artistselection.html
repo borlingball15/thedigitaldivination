@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Artist Selection</title>
+    <link rel="stylesheet" href="artistselection.css">
     <style>
         body {
             margin: 0;
@@ -18,20 +19,19 @@
         }
 
         h1 {
-            font-size: 60px;
+            font-size: 250px;
+            text-align: left;
             text-transform: uppercase;
+            transition: color 0.3s; 
         }
     </style>
 </head>
 <body>
-    <h1 id="selectedYear"></h1>
+    <h1 id="selectedYear" onmouseover="this.style.color='red'" onmouseout="this.style.color='white'"></h1>
+    <ul id="artistList"></ul>
 
-    <script>
-        window.onload = function() {
-            const urlParams = new URLSearchParams(window.location.search);
-            const year = urlParams.get('year');
-            document.getElementById('selectedYear').innerText = `Selected Year: ${year}`;
-        };
-    </script>
+    <script src="artistselection.js"></script>
 </body>
 </html>
+
+
