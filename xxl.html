@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Page Title</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        color: white;
+        font-family: Helvetica Neue, sans-serif;
+        display: flex;
+        height: 100vh;
+    }
+
+    .container {
+        display: flex;
+        width: 50%;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .left {
+        width: 50%;
+        text-align: center;
+        font-size: 50px;
+        text-transform: uppercase;
+        color: white;
+        line-height: 0.8; /* Adjust line height for smaller gap */
+    }
+
+    .right {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .right h1 {
+        font-size: 90px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 0;
+        color: red; /* Set color to red */
+    }
+</style>
+</head>
+<body>
+    <div class="container left"><h1>XXL</h1><h1>FRESHMEN</h1><h1>RAP</h1></div>
+    <div class="container right">
+        <h1>PICK A YEAR</h1>
+        <input type="range" min="7" max="20" value="7" class="slider" id="myRange">
+        <p id="year"></p>
+        <button onclick="goToArtistSelection()">GO</button>
+    </div>
+    <script src="yearselection.js"></script>
+</body>
+</html>
+
+<audio autoplay loop>
+    <source src="2016 cypher.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+  </audio>
+  
