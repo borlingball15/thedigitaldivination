@@ -13,7 +13,6 @@
     }
     .container {
         display: flex;
-        flex-direction: row;
         align-items: center;
         justify-content: center;
         height: 100vh;
@@ -30,13 +29,16 @@
         height: 100vh;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
         justify-content: center;
+        padding: 0 20px;
     }
     img {
-        max-width: 100%;
+        max-width: 30%;
         height: auto;
-        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: 120px;
+        margin-top: 10px;
     }
     a {
         color: white;
@@ -50,10 +52,12 @@
             <div class="content">
                 <h1>ALL ABOUT XXL</h1>
                 <p>XXL is a prominent hip hop magazine (well these days just a website), and to set themselves apart they put together an annual "Freshman" list to chronicle up and coming rappers who are making waves in the industry and hopefully push them further into the spotlight.</p>
-                <img src="https://static.stereogum.com/uploads/2020/08/XXL-Freshmen-1597173326.jpg" alt="XXL Freshman">
-                <a href="opening.html">Back</a>
+                <span style="text-transform: uppercase;" onmouseover="this.style.color='black'" onmouseout="this.style.color=''">
+                    <a href="opening.html">Back</a>
+                </span>
             </div>
         </div>
+        <img src="https://static.stereogum.com/uploads/2020/08/XXL-Freshmen-1597173326.jpg" alt="XXL Freshman">
     </div>
 </body>
 </html>
