@@ -40,7 +40,7 @@ fetch('https://raw.githubusercontent.com/dariusk/corpora/27c133b7b3adb318582103a
             artistListElement.appendChild(listItem);
         });
 
-        // Aspace
+        // space between text and list 
         const spacer = document.createElement("span");
         spacer.innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"; 
         artistListElement.parentNode.insertBefore(spacer, artistListElement);

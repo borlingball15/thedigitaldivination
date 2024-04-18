@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
     async function fetchAsync() {
         try {
             // await response of fetch call
-            let response = await fetch('xxl2016.json');
+            let response = await fetch('https://raw.githubusercontent.com/borlingball15/thedigitaldivination/main/2016freshman.json');
             if (!response.ok) {
                 throw new Error('Network response was not ok');
             }
@@ -29,3 +29,4 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById("art").src = artist.art;
     }
 });
+
