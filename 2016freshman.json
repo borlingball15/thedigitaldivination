@@ -1,0 +1,77 @@
+{
+	"description": "different songs for visuals",
+	"date": "2024-04-19",
+	"source": "https://www.xxlmag.com/xxl-freshman-class-cover-2016/#:~:text=Most%20important%2C%20congratulations%20to%20the,The%20new%20wave.",
+	"artist": [
+		{
+			"name": "LIL UZI VERT",
+			"label": "Atlantic Records",
+			"age": "29",
+			"famous song": "XO Tour Llif3",
+			"art": "https://yt3.googleusercontent.com/drvz-swJ2OqdJU_mEnJl1czV6IP1YA1suqq1Gm449HNfXeIRvwXdqG1mZ2Bn8dDGsM8e3CN8=s900-c-k-c0x00ffffff-no-rj"
+		},
+		{
+			"name": "LIL YACHTY",
+			"label": "Motown, Capitol Records, and Quality Control Music",
+			"age": "26",
+			"famous song": "Worry No More",
+			"art": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Lil_Yachty_cropped.jpg/918px-Lil_Yachty_cropped.jpg"
+		},
+		{
+			"name": "KODAK BLACK",
+			"label": "Atlantic Records",
+			"age": "26",
+			"famous song": "Don't Wanna Breathe",
+			"art": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Kodak_Black_October_2018.jpg/440px-Kodak_Black_October_2018.jpg"
+		},
+		{
+			"name": "DENZEL CURRY",
+			"label": "Loma Vista Recordings",
+			"age": "29",
+			"famous song": "BRB",
+			"art": "https://npr.brightspotcdn.com/dims4/default/ccdc832/2147483647/strip/true/crop/1500x1125+0+0/resize/880x660!/quality/90/?url=https%3A%2F%2Fmedia.npr.org%2Fassets%2Fimg%2F2022%2F03%2F30%2Fdenzel-curry-by-adrian-villagomez-2-af8e84c9fcd5270c63b0723153d24c6373248276.jpeg"
+		},
+		{
+			"name": "G HERBO",
+			"label": "Cinematic Music Group, Republic Records, Epic Records, RED Music",
+			"age": "28",
+			"famous song": "PTSD",
+			"art": "https://m.media-amazon.com/images/M/MV5BY2NlZDIwY2ItMWE4Zi00ODZiLWFhNzQtZGI1YTNmNGEzNDg3XkEyXkFqcGdeQXVyMTMzOTQyOTk1._V1_.jpg"
+		},
+		{
+			"name": "DAVE EAST",
+			"label": "Def Jam Records",
+			"age": "35",
+			"famous song": "Phone Jumpin",
+			"art": "https://ca-times.brightspotcdn.com/dims4/default/2651fae/2147483647/strip/true/crop/4984x3379+0+0/resize/1200x814!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F19%2Fad%2F18954d88f3e1bb5fbec3149f7af5%2Ff07cefc58fd74c7a939e148d0338ed45"
+		},
+		{
+			"name": "LIL DICKY",
+			"label": "BMG Rights Management",
+			"age": "36",
+			"famous song": "Freaky Friday",
+			"art": "https://www.refinery29.com/images/9500558.jpg"
+		},
+		{
+			"name": "ANDERSON PAAK",
+			"label": "Apeshit INC",
+			"age": "38",
+			"famous song": "Come Down",
+			"art": "https://i.scdn.co/image/ab6761610000e5eb96287bd47570ff13f0c01496"
+		},
+		{
+			"name": "DESIIGNER",
+			"label": "GOOD Music, Def Jam Recordings, L.O.D Records, RIVETING MUSIC",
+			"age": "26",
+			"famous song": "Panda",
+			"art": "https://www.thefamouspeople.com/profiles/images/desiigner-2.jpg"
+		},
+        {
+			"name": "21 SAVAGE",
+			"label": "Epic Records",
+			"age": "31",
+			"famous song": "Creepin'",
+			"art": "https://m.media-amazon.com/images/M/MV5BMzcyOTM2NDA5OF5BMl5BanBnXkFtZTgwMTYzMTQzNzM@._V1_.jpg"
+		}
+	]
+}

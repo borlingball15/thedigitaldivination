@@ -11,12 +11,13 @@ body {
 }
 
 #artistInfo {
-    max-width: 600px;
-    padding: 300px;
+    max-width: 500px;
+    padding: 50px;
     border-radius: 10px;
-    background-color: rgba(175, 13, 13, 0.314);
+    background-color: rgb(160, 11, 11);
     backdrop-filter: blur(10px);
     text-align: center;
+    border-radius: 10px;
 }
 
 #artistInfo img {

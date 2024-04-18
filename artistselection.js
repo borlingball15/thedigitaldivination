@@ -47,4 +47,6 @@ fetch('https://raw.githubusercontent.com/dariusk/corpora/27c133b7b3adb318582103a
     })
     .catch(error => {
         console.error('Error fetching data:', error);
+
+        localStorage.setItem("selectedYear", selectedYear);
     });
