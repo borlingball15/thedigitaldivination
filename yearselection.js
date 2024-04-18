@@ -7,7 +7,7 @@ slider.oninput = function() {
     const year = 2000 + parseInt(this.value);
     yearDisplay.innerHTML = year;
     yearDisplay.style.fontSize = "60px"; 
-    slider.style.marginBottom = "10px"; // Adjust the value to reduce the gap
+    slider.style.marginBottom = "10px";
 }
 
 function goToArtistSelection() {

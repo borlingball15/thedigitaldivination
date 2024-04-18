@@ -21,7 +21,7 @@ ul {
 }
 
 li {
-    font-size: 30px; /* Adjust the font size as needed */
+    font-size: 30px; 
     opacity: 0.8;
     transition: opacity 0.3s;
 }
