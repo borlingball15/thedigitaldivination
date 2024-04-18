@@ -1,58 +1,61 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Introduction Page</title>
+<title>ALL ABOUT XXL</title>
 <style>
     body {
+        background-color: black;
+        font-family: Helvetica, Arial, sans-serif;
         margin: 0;
         padding: 0;
-        background-color: black;
-        color: white;
-        font-family: Helvetica Neue, sans-serif;
+    }
+    .container {
         display: flex;
-        justify-content: center;
         align-items: center;
+        justify-content: center;
         height: 100vh;
+    }
+    .content {
+        text-align: center;
+        color: white;
+        padding: 20px;
+    }
+    .blue-square {
+        background-color: blue;
+        border-radius: 20px;
+        width: 50%;
+        height: 100vh;
+        display: flex;
         flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 0 20px;
     }
-    .title {
-        white-space: nowrap;
-        font-size: 90px;
-        font-weight: bold;
-        opacity: 0;
-        animation: fadeIn 1s forwards;
-        animation-delay: 0.5s;
+    img {
+        max-width: 20%;
+        height: auto;
+        margin-left: auto;
+        margin-right: 20px;
+        margin-top: 20px;
     }
-    .subtitle, .subsubtitle {
-        white-space: nowrap;
-        font-size: 45px;
-        opacity: 0.5;
+    a {
+        color: white;
         text-decoration: none;
-        font-weight: normal;
-        transition: opacity 0.5s;
-    }
-    .subtitle:hover, .subsubtitle:hover {
-        opacity: 1;
-    }
-    .subtitle {
-        color: red;
-    }
-    @keyframes fadeIn {
-        from {
-            opacity: 0;
-        }
-        to {
-            opacity: 1;
-        }
     }
 </style>
 </head>
 <body>
-    <div class="title">'ARE YOU INTERESTED IN RAP?'</div>
-    <a class="subtitle" href="XXL.html">'FREESTYLE'</a>
-    <a class="subsubtitle" href="moreinformation.html">'GOTTA KNOW MORE..'</a>
+    <div class="container">
+        <div class="blue-square">
+            <div class="content">
+                <h1>ALL ABOUT XXL</h1>
+                <p>XXL is a prominent hip hop magazine (well these days just a website), and to set themselves apart they put together an annual "Freshman" list to chronicle up and coming rappers who are making waves in the industry and hopefully push them further into the spotlight.</p>
+                <a href="opening.html">Back</a>
+            </div>
+        </div>
+        <img src="https://static.stereogum.com/uploads/2020/08/XXL-Freshmen-1597173326.jpg" alt="XXL Freshman">
+    </div>
 </body>
 </html>
